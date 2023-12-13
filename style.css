@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PP Mori";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #548687;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#winner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #52505074;
+    backdrop-filter: blur(3px);
+    top: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .6s;
+}
+
+#win-box{
+    width: 60vmin;
+    height: 75vmin;
+    background-color: #50a0a1;
+    margin-bottom: 2vmin;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#win-box h1{
+    font-weight: 900;
+    font-size: 4.3vmin;
+    font-family: "gilroy";
+    padding-bottom: 2px;
+}
+#win-box h1 span{
+    font-weight: 900;
+    font-size: 5.4vmin;
+    font-family: "gilroy";
+}
+
+#win-box button{
+    margin-top: 4vmin;
+}
+
+#section{
+    width: 60vmin;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 3vmin;
+    text-align: center;
+    gap: 4vmin;
+    color: unset;
+}
+
+#section h1{
+    position: relative;
+    z-index: 2;
+    color: #00ffcc;
+    font-family: 'Libre Franklin', sans-serif;
+    white-space: nowrap;
+}
+
+
+#game{
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 0 1rem rgba(29, 29, 29, 0.3);
+    cursor: pointer;
+    background-color: #fefec8;
+    color: #d74c47;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.resat-btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 600;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
