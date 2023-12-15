@@ -1,0 +1,24 @@
+@media (max-width: 480px) {
+
+    #main{
+        align-items: center;
+    }
+
+    #section{
+        width: 70vmin;
+        font-size: .8rem;
+        justify-content: unset;
+        margin-top: 0vmin;
+        gap: 8vmin;
+    }
+
+    #game {
+        height: 83vmin;
+        gap: 2.5vmin;
+    }
+
+    .box {
+        width: 21vmin;
+        height: 21vmin;
+    }
+}

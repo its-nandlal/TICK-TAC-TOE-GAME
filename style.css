@@ -74,6 +74,7 @@ html, body{
     text-align: center;
     gap: 4vmin;
     color: unset;
+    transition: all ease .2s;
 }
 
 #section h1{
@@ -92,6 +93,7 @@ html, body{
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
+    transition: all ease .2s;
 }
 
 .box{
@@ -107,6 +109,7 @@ html, body{
     background-color: #fefec8;
     color: #d74c47;
     font-family: 'Libre Franklin', sans-serif;
+    transition: all ease .2s;
 }
 
 .resat-btn{
